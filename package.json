@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "next.js": "^1.0.3",
+    "node.js": "^0.0.1-security",
+    "website-scraper": "^5.2.0"
+  }
+}
