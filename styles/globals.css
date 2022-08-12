@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@font-face {
+  font-family: "Oblique";
+  src: url("../public/fonts/Oblique.otf");
+}
+
+@font-face {
+  font-family: "Trade-Gothic";
+  src: url("../public/fonts/Trade-Gothic.otf");
+}
+
+@font-face {
+  font-family: "Chaparral W01";
+  src: url("../public/fonts/Chaparral.otf");
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body  {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.searchbar:focus{
+  outline: none;
+}

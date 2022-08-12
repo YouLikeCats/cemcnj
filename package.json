@@ -1,8 +1,53 @@
 {
-  "type": "module",
+  "name": "cemcnj",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://www.chromatic.com/\">     <img alt=\"Chromatic\" src=\"https://avatars2.githubusercontent.com/u/24584319?s=200&v=4\" width=\"60\" />   </a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouLikeCats/cemcnj.git"
+  },
+  "author": "Bryan Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YouLikeCats/cemcnj/issues"
+  },
+  "homepage": "https://github.com/YouLikeCats/cemcnj#readme",
   "dependencies": {
+    "next": "^12.2.5",
     "next.js": "^1.0.3",
-    "node.js": "^0.0.1-security",
-    "website-scraper": "^5.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^6.5.10",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tw-elements": "^1.0.0-alpha12",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.10",
+    "@storybook/manager-webpack5": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5",
+    "tailwindcss": "^3.1.8",
+    "webpack": "^5.74.0"
+  },
+  "resolutions": {
+    "webpack": "^5"
   }
 }
